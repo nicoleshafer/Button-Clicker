@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAV -->
+    <div class="navbar">
+        <div class="nav">
+            <h1>Dojonary</h1>
+            <input type="text" placeholder="Search" name="Search" class="search-bar">
+            <div class="login"><button class="login" onclick="signOut(this)">Login</button></div>
+        </div>
+    </div>
+
+
+    <div class="container">
+
+        <!-- LEFT SIDE -->
+        <!-- FIRST ITEM -->
+        <div class="row">
+            <div class="col-2">
+                <div class="card">
+                    <div class="left-side-card">
+                        <h3 class="title">ninja</h3>
+                        <p class="word-info indent">noun</p>
+                        <p class="word-info">Plural: <em> ninjas</em></p>
+                        <button class="like" onclick="alert('Ninja was liked')">13 likes</button>
+                    </div>
+                    <div class="right-side-card">
+                        <p class="next-line">A practitioner skilled in the
+                        </p>
+                        <p><a href="#">Japanese</a>
+                            art of
+                            <a href="#">ninjutsu</a>
+                        </p>
+                    </div>
+                </div>
+                <!-- SECTION 2 -->
+                <div class="card">
+                    <div class="left-side-card">
+                        <h3 class="title">ninja</h3>
+                        <p class="word-info indent">noun</p>
+                        <p class="word-info">Plural: <em>ninjas</em></p>
+                        <button class="like" onclick="alert('Ninja was liked')">37 likes</button>
+                    </div>
+                    <div class="right-side-card2">
+                        A
+                        <a href="#">
+                            programmer
+                        </a>
+                        who breaks down problems with
+                        <a href="#">zen</a> 
+                        -like focus
+                    </div>
+                </div>
+            </div>
+            <!-- RIGHT SIDE -->
+            <div class="col">
+                <div class="card-2">
+                    <div class="add-def">
+                        <h3>Dojonary is</h3>
+                    </div>
+                    <div class="add-def-2">
+                        <h3>defined by YOU</h3>
+                    </div>
+                    <button class="add" onclick="hide(this)">Add Definition</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- END COLUMN -->
+
+    <!-- </div> -->
+    <!-- script -->
+    <script src="script.js"></script>
+</body>
+
+</html>
